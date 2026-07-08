@@ -15,42 +15,59 @@
   </head>
 
   <body>
-    <main class="dashboard">
-      <header class="header">
-        <img
-          src="assets/logo/logoPRIMALGYM.png"
-          alt="Logo do PrimalGym"
-          class="logo"
-        />
-      </header>
+    <main>
+      <section id="dashboard">
+        <header class="header">
+          <img
+            src="assets/logo/logoPRIMALGYM.png"
+            alt="Logo do PrimalGym"
+            class="logo"
+          />
+        </header>
+        <section class="welcome">Olá, Rafael 👋</section>
 
-      <section class="welcome">Olá, Rafael 👋</section>
+        <section class="stats">
+          <div class="card">
+            <p class="card-title">Treinos realizados</p>
+            <p class="card-value">27</p>
+          </div>
 
-      <section class="stats">
-        <div class="card">
-          <p class="card-title">Treinos realizados</p>
-          <p class="card-value">27</p>
-        </div>
+          <div class="card">
+            <p class="card-title">Último Treino</p>
+            <p class="card-value">Ontem</p>
+          </div>
 
-        <div class="card">
-          <p class="card-title">Último Treino</p>
-          <p class="card-value">Ontem</p>
-        </div>
+          <div class="card">
+            <p class="card-title">Peso corporal</p>
+            <p class="card-value">90 kg</p>
+          </div>
+        </section>
 
-        <div class="card">
-          <p class="card-title">Peso corporal</p>
-          <p class="card-value">90</p>
-        </div>
+        <section class="actions">
+          <button class="btn btn-primary">Iniciar treino</button>
+        </section>
+
+        <nav class="navigation">
+          <a href="#">Histórico</a>
+          <a href="#">Estatísticas</a>
+        </nav>
       </section>
 
-      <section class="actions">
-        <button class="start">Iniciar treino</button>
-      </section>
+      <!-- TELA DE TREINO -->
+      <section id="workout">
+        <h2>Treino de Hoje</h2>
 
-      <nav class="navigation">
-        <a href="#">Histórico</a>
-        <a href="#">Estatísticas</a>
-      </nav>
+        <p class="timer">00:00:00</p>
+
+        <div class="exercise-list">
+          <p>Nenhum exercício adicionado.</p>
+        </div>
+
+        <button class="btn btn-primary">+ Adicionar exercício</button>
+
+        <button class="btn btn-primary">Finalizar treino</button>
+      </section>
     </main>
+    <script src="js/app.js"></script>
   </body>
 </html>
