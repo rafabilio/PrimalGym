@@ -1,0 +1,18 @@
+:root {
+  /* Cores */
+  --background: #0f172a;
+  --surface: #1e293b;
+  --primary: #22c55e;
+
+  --text: #f8fafc;
+  --text-secondary: #94a3b8;
+
+  /* Bordas */
+  --radius: 16px;
+
+  /* Espaçamentos */
+  --spacing: 20px;
+
+  /* Animações */
+  --transition: 0.3s;
+}
