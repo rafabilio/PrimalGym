@@ -55,6 +55,28 @@
 
       <!-- TELA DE TREINO -->
       <section id="workout">
+        <!-- MODAL -->
+        <section id="exercise-modal">
+          <div class="modal-content">
+            <h2>Adicionar exercício</h2>
+
+            <input
+              type="text"
+              placeholder="Pesquisar exercício..."
+              class="search-input"
+            />
+
+            <div class="exercise-options"></div>
+
+            <button class="btn btn-primary close-modal">Cancelar</button>
+          </div>
+        </section>
+
+        <header class="workout-header">
+          <button id="back-dashboard" class="back-button">← Dashboard</button>
+
+          <h2>Treino de Hoje</h2>
+        </header>
         <h2>Treino de Hoje</h2>
 
         <p class="timer">00:00:00</p>
@@ -63,11 +85,17 @@
           <p>Nenhum exercício adicionado.</p>
         </div>
 
-        <button class="btn btn-primary">+ Adicionar exercício</button>
+        <button class="btn btn-primary add-exercise">
+          + Adicionar exercício
+        </button>
 
         <button class="btn btn-primary">Finalizar treino</button>
       </section>
     </main>
+
+    <script src="js/navigation.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/exercises.js"></script>
     <script src="js/app.js"></script>
   </body>
 </html>

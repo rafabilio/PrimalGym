@@ -1,0 +1,268 @@
+{
+  "Peito": [
+    {
+      "id": 1,
+      "nome": "Supino Reto",
+      "equipamento": "Barra",
+      "tipo": "Composto"
+    },
+    {
+      "id": 2,
+      "nome": "Supino Inclinado",
+      "equipamento": "Barra",
+      "tipo": "Composto"
+    },
+    {
+      "id": 3,
+      "nome": "Supino Declinado",
+      "equipamento": "Barra",
+      "tipo": "Composto"
+    },
+    {
+      "id": 4,
+      "nome": "Supino com Halteres",
+      "equipamento": "Halteres",
+      "tipo": "Composto"
+    },
+    {
+      "id": 5,
+      "nome": "Crucifixo",
+      "equipamento": "Halteres",
+      "tipo": "Isolado"
+    },
+    {
+      "id": 6,
+      "nome": "Crucifixo Inclinado",
+      "equipamento": "Halteres",
+      "tipo": "Isolado"
+    },
+    {
+      "id": 7,
+      "nome": "Cross Over",
+      "equipamento": "Polia",
+      "tipo": "Isolado"
+    }
+  ],
+
+  "Costas": [
+    {
+      "id": 8,
+      "nome": "Puxada Frontal",
+      "equipamento": "Polia",
+      "tipo": "Composto"
+    },
+    {
+      "id": 9,
+      "nome": "Remada Curvada",
+      "equipamento": "Barra",
+      "tipo": "Composto"
+    },
+    {
+      "id": 10,
+      "nome": "Remada Baixa",
+      "equipamento": "Polia",
+      "tipo": "Composto"
+    },
+    {
+      "id": 11,
+      "nome": "Remada Unilateral",
+      "equipamento": "Halter",
+      "tipo": "Composto"
+    },
+    {
+      "id": 12,
+      "nome": "Pulldown",
+      "equipamento": "Polia",
+      "tipo": "Isolado"
+    }
+  ],
+
+  "Ombros": [
+    {
+      "id": 13,
+      "nome": "Desenvolvimento Militar",
+      "equipamento": "Barra",
+      "tipo": "Composto"
+    },
+    {
+      "id": 14,
+      "nome": "Desenvolvimento com Halteres",
+      "equipamento": "Halteres",
+      "tipo": "Composto"
+    },
+    {
+      "id": 15,
+      "nome": "Elevação Lateral",
+      "equipamento": "Halteres",
+      "tipo": "Isolado"
+    },
+    {
+      "id": 16,
+      "nome": "Elevação Frontal",
+      "equipamento": "Halteres",
+      "tipo": "Isolado"
+    },
+    {
+      "id": 17,
+      "nome": "Crucifixo Invertido",
+      "equipamento": "Máquina",
+      "tipo": "Isolado"
+    }
+  ],
+
+  "Bíceps": [
+    {
+      "id": 18,
+      "nome": "Rosca Direta",
+      "equipamento": "Barra",
+      "tipo": "Isolado"
+    },
+    {
+      "id": 19,
+      "nome": "Rosca Martelo",
+      "equipamento": "Halteres",
+      "tipo": "Isolado"
+    },
+    {
+      "id": 20,
+      "nome": "Rosca Scott",
+      "equipamento": "Barra W",
+      "tipo": "Isolado"
+    },
+    {
+      "id": 21,
+      "nome": "Rosca Concentrada",
+      "equipamento": "Halter",
+      "tipo": "Isolado"
+    }
+  ],
+
+  "Tríceps": [
+    {
+      "id": 22,
+      "nome": "Tríceps Pulley",
+      "equipamento": "Polia",
+      "tipo": "Isolado"
+    },
+    {
+      "id": 23,
+      "nome": "Tríceps Francês",
+      "equipamento": "Halter",
+      "tipo": "Isolado"
+    },
+    {
+      "id": 24,
+      "nome": "Tríceps Testa",
+      "equipamento": "Barra W",
+      "tipo": "Isolado"
+    },
+    {
+      "id": 25,
+      "nome": "Mergulho nas Paralelas",
+      "equipamento": "Peso Corporal",
+      "tipo": "Composto"
+    }
+  ],
+
+  "Pernas": [
+    {
+      "id": 26,
+      "nome": "Agachamento Livre",
+      "equipamento": "Barra",
+      "tipo": "Composto"
+    },
+    {
+      "id": 27,
+      "nome": "Leg Press 45°",
+      "equipamento": "Máquina",
+      "tipo": "Composto"
+    },
+    {
+      "id": 28,
+      "nome": "Hack Squat",
+      "equipamento": "Máquina",
+      "tipo": "Composto"
+    },
+    {
+      "id": 29,
+      "nome": "Cadeira Extensora",
+      "equipamento": "Máquina",
+      "tipo": "Isolado"
+    },
+    {
+      "id": 30,
+      "nome": "Mesa Flexora",
+      "equipamento": "Máquina",
+      "tipo": "Isolado"
+    },
+    {
+      "id": 31,
+      "nome": "Stiff",
+      "equipamento": "Barra",
+      "tipo": "Composto"
+    },
+    {
+      "id": 32,
+      "nome": "Afundo",
+      "equipamento": "Halteres",
+      "tipo": "Composto"
+    }
+  ],
+
+  "Panturrilhas": [
+    {
+      "id": 33,
+      "nome": "Panturrilha em Pé",
+      "equipamento": "Máquina",
+      "tipo": "Isolado"
+    },
+    {
+      "id": 34,
+      "nome": "Panturrilha Sentado",
+      "equipamento": "Máquina",
+      "tipo": "Isolado"
+    }
+  ],
+
+  "Abdômen": [
+    {
+      "id": 35,
+      "nome": "Abdominal Máquina",
+      "equipamento": "Máquina",
+      "tipo": "Isolado"
+    },
+    {
+      "id": 36,
+      "nome": "Elevação de Pernas",
+      "equipamento": "Peso Corporal",
+      "tipo": "Isolado"
+    },
+    {
+      "id": 37,
+      "nome": "Prancha",
+      "equipamento": "Peso Corporal",
+      "tipo": "Isométrico"
+    }
+  ],
+
+  "Cardio": [
+    {
+      "id": 38,
+      "nome": "Esteira",
+      "equipamento": "Máquina",
+      "tipo": "Cardio"
+    },
+    {
+      "id": 39,
+      "nome": "Bicicleta Ergométrica",
+      "equipamento": "Máquina",
+      "tipo": "Cardio"
+    },
+    {
+      "id": 40,
+      "nome": "Elíptico",
+      "equipamento": "Máquina",
+      "tipo": "Cardio"
+    }
+  ]
+}
